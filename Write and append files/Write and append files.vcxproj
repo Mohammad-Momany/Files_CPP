@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0ca964ac-6939-4168-825d-18a90181706e}</ProjectGuid>
-    <RootNamespace>FilesCPP</RootNamespace>
+    <ProjectGuid>{0c0d279a-730b-4e8c-ba75-7cfb879ed2a0}</ProjectGuid>
+    <RootNamespace>Writeandappendfiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Files_CPP.cpp" />
+    <ClCompile Include="Write and append files.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

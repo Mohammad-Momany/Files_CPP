@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Files_CPP.cpp">
+    <ClCompile Include="Write and append files.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

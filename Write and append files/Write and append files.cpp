@@ -1,5 +1,8 @@
-#include <iostream>
-#include <fstream>
+#include<iostream>
+#include<fstream>
+#include<string>
+#include<vector>
+
 using namespace std;
 
 int main()
@@ -10,7 +13,7 @@ int main()
 	// out for create
 	// app for append or add to the file
 
-	myFile.open("MyFile.txt", ios::out ); //append mode.
+	myFile.open("MyFile.txt", ios::out | ios::app); //append mode.
 
 	if (myFile.is_open())
 	{
